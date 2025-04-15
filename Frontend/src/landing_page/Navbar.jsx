@@ -215,7 +215,7 @@ const Navbar = () => {
           {/* Logo Section */}
           <div className="flex items-center gap-2">
             <img
-              src="./public/Zerodhalogo.jpeg"
+              src="/Zerodhalogo.jpeg"
               alt="Zerodha Logo"
               className="w-[25px] h-[30px]"
             />
