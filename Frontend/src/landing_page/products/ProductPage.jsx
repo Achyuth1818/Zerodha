@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 
-import LeftSection from "./leftSection";
+import LeftSection from "./LeftSection";
 import Hero from "./Hero";
 import RightSection from "./RightSection";
 
