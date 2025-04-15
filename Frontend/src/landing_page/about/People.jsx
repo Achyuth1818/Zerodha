@@ -41,7 +41,7 @@ const People = () => {
           summary="Austin is a successful self-made entrepreneur from Singapore. His area of specialty revolves around helping organisations grow by optimizing revenue streams and creating growth strategies. He is a boxing enthusiast and loves collecting exquisite watches."
         />
         <Person
-          imageurl="/Karthik.jpg" // Corrected image path
+          imageurl="/karthik.jpg" // Corrected image path
           name="Karthik Rangappa"
           work="Chief of Education"
           summary="Karthik Guru Rangappa single-handedly wrote Varsity, Zerodha's massive educational program. He heads investor education initiatives at Zerodha and loves stock markets, classic rock, single malts, and photography."
