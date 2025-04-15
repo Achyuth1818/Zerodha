@@ -6,7 +6,7 @@ const LeftSection = (props) => {
       <div className="md:flex m-4 md:mx-[10%]">
         <div className=" md:flex left m-4 md:w-[50%] hidden mb-0">
           <img src={props.image} alt="public/ecosystem.png" />
-        </div>cd
+        </div>
         <div className="right md:w-[50%] md:mt-[10%] mb-0">
           <p className="m-4 text-[38px] text-[#3b3838] ">{props.name}</p>
           <p className="m-4 text-[#303632] font-serif">{props.summary}</p>
