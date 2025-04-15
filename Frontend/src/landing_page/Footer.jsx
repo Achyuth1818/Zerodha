@@ -14,7 +14,7 @@ const Footer = () => {
         <div>
           <div className="flex gap-2 mt-8">
             <img
-              src="./public/Zerodhalogo.jpeg"
+              src="/Zerodhalogo.jpeg"
               alt="/public/Zerodhalogo.jpeg"
               className="w-[25px] h-[25px]"
             />
