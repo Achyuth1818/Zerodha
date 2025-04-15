@@ -7,7 +7,7 @@ const SinupPage = () => {
   return (
     <>
       <div>
-        <Signup />
+        <signup />
         <SignupNow />
       </div>
     </>
