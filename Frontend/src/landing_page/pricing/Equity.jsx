@@ -5,11 +5,11 @@ const Equity = () => {
     <>
       <div className="text-center m-8">
         <img
-          src="public/pricing0.svg"
-          alt="public/pricing0.svg"
+          src="/pricing0.svg" // Corrected image path
+          alt="Free equity delivery"
           className="w-full h-[100px]"
         />
-        <p className="text-4xl text-[#444040] mb-4 ">Free equity delivery</p>
+        <p className="text-4xl text-[#444040] mb-4">Free equity delivery</p>
         <p className="text-[#807f7f]">
           All equity delivery investments (NSE, BSE), are absolutely free — ₹ 0
           brokerage.
@@ -17,11 +17,11 @@ const Equity = () => {
       </div>
       <div className="text-center m-8">
         <img
-          src="./public/intradayTrades.svg"
-          alt="public/pricing0.svg"
+          src="/intradayTrades.svg" // Corrected image path
+          alt="Intraday and F&O trades"
           className="w-full h-[100px]"
         />
-        <p className="text-4xl text-[#444040]  mb-4">Intraday and F&O trades</p>
+        <p className="text-4xl text-[#444040] mb-4">Intraday and F&O trades</p>
         <p className="text-[#807f7f]">
           Flat ₹ 20 or 0.03% (whichever is lower) per executed order on intraday
           trades across equity, currency, and commodity trades. Flat ₹20 on all
@@ -30,11 +30,11 @@ const Equity = () => {
       </div>
       <div className="text-center m-8">
         <img
-          src="public/pricing0.svg"
-          alt="public/pricing0.svg"
+          src="/pricing0.svg" // Corrected image path
+          alt="Free direct mutual funds"
           className="w-full h-[100px]"
         />
-        <p className="text-4xl text-[#444040] mb-4 ">Free direct MF</p>
+        <p className="text-4xl text-[#444040] mb-4">Free direct MF</p>
         <p className="text-[#807f7f]">
           All direct mutual fund investments are absolutely free — ₹ 0
           commissions & DP charges.
