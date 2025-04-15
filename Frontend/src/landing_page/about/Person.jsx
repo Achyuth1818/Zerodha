@@ -6,13 +6,14 @@ function Person(props) {
   const toggleDetails = () => {
     setIsOpen(!isOpen);
   };
+
   return (
     <>
       <div className="text-center">
         <div>
           <img
             src={props.imageurl}
-            alt="/public/nithin-kamath.png"
+            alt={`${props.name} profile`} // Improved alt text for accessibility
             className="w-[300px] h-[300px] mx-auto rounded-full my-[8%]"
           />
           <p className="my-4 text-3xl text-[#343434] mb-0">{props.name}</p>
@@ -28,7 +29,7 @@ function Person(props) {
                 ) : (
                   <FaEye
                     size={24}
-                    className="hover:text-blue-500  text-[#4d4848]"
+                    className="hover:text-blue-500 text-[#4d4848]"
                   />
                 )}
               </span>
